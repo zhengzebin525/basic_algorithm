@@ -1,0 +1,31 @@
+﻿生成启动时间为 2019/4/30 星期二 15:16:12。
+     1>项目“C:\Users\Administrator\Desktop\几个基本算法\Yanghui_triangle\Yanghui_triangle01\Yanghui_triangle01\Yanghui_triangle01.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\Yanghui_triangle01.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         d:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Yanghui_triangle01.cpp
+         Yanghui_triangle01.cpp
+     1>c:\users\administrator\desktop\几个基本算法\yanghui_triangle\yanghui_triangle01\yanghui_triangle01\yanghui_triangle01.cpp(8): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 10.0\vc\include\stdio.h(304) : 参见“scanf”的声明
+     1>c:\users\administrator\desktop\几个基本算法\yanghui_triangle\yanghui_triangle01\yanghui_triangle01\yanghui_triangle01.cpp(9): warning C4554: “|”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+     1>c:\users\administrator\desktop\几个基本算法\yanghui_triangle\yanghui_triangle01\yanghui_triangle01\yanghui_triangle01.cpp(12): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 10.0\vc\include\stdio.h(304) : 参见“scanf”的声明
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         d:\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Desktop\几个基本算法\Yanghui_triangle\Yanghui_triangle01\Debug\Yanghui_triangle01.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Yanghui_triangle01.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Administrator\Desktop\几个基本算法\Yanghui_triangle\Yanghui_triangle01\Debug\Yanghui_triangle01.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\Desktop\几个基本算法\Yanghui_triangle\Yanghui_triangle01\Debug\Yanghui_triangle01.lib" /MACHINE:X86 Debug\Yanghui_triangle01.exe.embed.manifest.res
+         Debug\Yanghui_triangle01.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Yanghui_triangle01.exe.embed.manifest" /manifest Debug\Yanghui_triangle01.exe.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         Yanghui_triangle01.vcxproj -> C:\Users\Administrator\Desktop\几个基本算法\Yanghui_triangle\Yanghui_triangle01\Debug\Yanghui_triangle01.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\Yanghui_triangle01.unsuccessfulbuild”。
+         正在对“Debug\Yanghui_triangle01.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\Administrator\Desktop\几个基本算法\Yanghui_triangle\Yanghui_triangle01\Yanghui_triangle01\Yanghui_triangle01.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.42

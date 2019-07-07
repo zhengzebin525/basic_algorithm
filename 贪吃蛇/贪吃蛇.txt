@@ -1,0 +1,56 @@
+1、SetConsoleCursorPosition（）是一个计算机函数，用于定位需要显示的坐标
+SetConsoleCursorPosition（参数1，参数2）
+参数1：标准输入/输入/错误返回的句柄
+参数2：COORD定义的结构体，其中包含了x，y坐标
+
+2、SetConsoleTextAttribute（）是一个window API函数，用于设置字体和颜色
+SetConsoleTextAttribute（参数1，参数2）
+参数1：标准输入/输入/错误返回的句柄
+参数2：表示颜色的十六进制
+
+2、HANDLE GetStdHandle（参数）是一个window API函数，用于从标准输入/标准输出/标准错误中获取句柄
+参数如下：
+标准输入：STD_INPUT_HANDLE
+标准输出：STD_OUTPUT_HANDLE
+标准错误：STD_ERROR_HANDLE
+
+3、COORD（）是一个window API定义的结构，表示一个字符在屏幕上的坐标。
+typedef struct _COORD {
+SHORT X;   //X坐标
+SHORT Y;   //y坐标
+} COORD;
+
+4、public static extern short GetAsyncKeyState（int vkey）
+是window一个API函数，该函数判断某个物理按键是处于按下状态（非0）还是没按下状态（0），
+vkey ：是256个虚拟按键中的一个
+常用键的VK值：
+VK_SHIFT Shift键
+VK_LSHIFT 左Shift键
+VK_RSHIFT 右Shift键
+VK_CONTROL Ctrl键
+VK_LCONTROL 左Ctrl键
+VK_RCONTROL 右Ctril键
+VK_MENU Alt键
+VK_LMENU 左Alt键
+VK_RMENU 右Alt键
+VK_LBUTTON 鼠标左键
+VK_RBUTTON 鼠标右键
+VK_ESCAPE ESC键
+VK_RETURN回车键
+VK_TABTAB键
+VK_SPACE空格键
+VK_UP↑键
+VK_DOWN↓键
+VK_LEFT←键
+VK_RIGHT→键
+
+5、	system("mode con cols=120 lines=40"); 
+		调整控制台显示的宽度和高度
+	system("pause");
+		暂停界面，等待用户信号，才会往下执行下一个界面
+	system("cls");
+		清空显示界面
+6、  执行挂起一段时间
+	sleep( )    --->延时妙
+	Sleep( )    --->延时毫秒
+	usleep( )   --->延时微秒
